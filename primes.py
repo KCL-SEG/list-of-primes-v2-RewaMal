@@ -4,7 +4,7 @@
 def primes(number_of_primes):
     list = []
     if number_of_primes == 0:
-        raise TypeError(f'Enterd value: {number_of_primes} is a zero, work with numbers greateer then zero only.')
+        raise TypeError(ValueError)
     elif number_of_primes <0:
         raise TypeError(f'Entered value: {number_of_primes} is negative, work with positive numeber only.')
     else: 
