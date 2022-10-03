@@ -10,4 +10,4 @@ def primes(number_of_primes):
         
         for x in range(0,number_of_primes):
             list.append(prime_num[x])
-    return list
+        return list
